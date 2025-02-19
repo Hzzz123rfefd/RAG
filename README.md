@@ -39,6 +39,7 @@ D = [(self.knowledge[i], cosine_similarities[i]) for i in top_k_indices]
 ```
 
 ```math
+\begin{aligned}
   \text{TF}(t, d) = \frac{\text{词 } t \text{ 在文档 } d \text{ 中出现的次数}}{\text{文档 } d \text{ 中总词数}} \\
   \text{IDF}(t) = \log\left(\frac{N}{1 + \text{DF}(t)}\right) \\
   \text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t)
