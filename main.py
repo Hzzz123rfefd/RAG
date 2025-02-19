@@ -21,6 +21,6 @@ if __name__ == "__main__":
     parser.add_argument("--rerank_model_path",type=str,default = "BAAI/bge-reranker-base")
     parser.add_argument("--k1",type = int,default = 10)
     parser.add_argument("--k2",type = int,default = 5)
-    parser.add_argument("--device",type=str,default = "cpu")
+    parser.add_argument("--device",type=str,default = "cuda")
     args = parser.parse_args()
     main(args)
