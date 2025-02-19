@@ -1,2 +1,7 @@
 marco_train
 .DS_Store
+__pycache__
+*.pyc
+*.csv
+*.docx
+*,pdf
